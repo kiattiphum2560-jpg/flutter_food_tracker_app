@@ -1,0 +1,28 @@
+name: flutter_run_tracker_app
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+ flutter:
+   sdk: flutter
+ supabase_flutter: ^2.18.3 # ใช้สำหรับเชื่อมต่อกับ Supabase
+ image_picker: ^1.2.4 # ใช้สำหรับเลือกภาพจากแกลเลอรี่หรือกล้อง
+ storage_client: ^2.8.1
+ material_ui: ^1.11.0
+ google_fonts: ^9.0.0
+ path: ^1.9.1
+
+dev_dependencies:
+ flutter_test:
+   sdk: flutter
+ flutter_lints: ^6.0.0
+
+flutter:
+ uses-material-design: true
+ assets:
+   - assets/icon/
